@@ -1,0 +1,25 @@
+{
+  "name": "tenaphoto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "firebase": "^9.14.0",
+    "firebase-admin": "^11.2.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
+  }
+}
